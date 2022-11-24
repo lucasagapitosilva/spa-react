@@ -1,0 +1,58 @@
+header {
+    width: 100%;
+    background-color: #F9DB79;
+    position: fixed;
+}
+
+.topo {
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    width: 60px;
+}
+
+.link {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    margin: 0 20px;
+    font-size: max(16px, 1vw);
+}
+
+
+@media (max-width: 425px) {
+
+    .topo {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    nav {
+        margin-top: 20px;
+        border-top: 1px solid #808080;
+        padding: 12px 0;
+        width: 90%;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .logo {
+        padding-top: 10px;
+    }
+
+}
+
+
+
+@media (max-width: 768px) {
+
+    .topo {
+        width: 100%;
+        padding: 10px 20px;
+    }
+}
